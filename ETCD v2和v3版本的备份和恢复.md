@@ -63,7 +63,7 @@ etcd --data-dir=/var/lib/etcd/default.etcd --force-new-cluster &
 
 ```shell
 curl http://127.0.0.1:2379/v2/members/7c26cff88201 -XPUT \
--H "Content-Type:application/json" -d '{"peerURLs":["http://127.0.0.1:2379"]}'
+-H "Content-Type:application/json" -d '{"peerURLs":["http://127.0.0.1:2380"]}'
 ```
 
 
